@@ -335,8 +335,16 @@ export DEBUG=true
 assignment-toolkit sync my-assignment.yaml
 ```
 
-## 📚 Examples Directory
+## 📚 Documentation & Examples
 
+### **📖 Complete Documentation**
+- **[Getting Started Checklist](docs/GETTING_STARTED_CHECKLIST.md)** - Step-by-step learning guide
+- **[Quick Reference](docs/portable_assignments_quick_reference.md)** - Essential commands cheat sheet
+- **[Cross-Platform Guide](docs/CROSS_PLATFORM_COMPATIBILITY_GUIDE.md)** - Multi-computer setup
+- **[Type Conflicts Guide](docs/ASSIGNMENT_TYPE_CONFLICTS_GUIDE.md)** - Assignment type mappings
+- **[Git Best Practices](docs/GIT_REPOSITORY_BEST_PRACTICES.md)** - Repository setup guidance
+
+### **📝 Example Templates**
 Check the `examples/` directory for sample assignments:
 
 - `examples/multiple-choice-basic.yaml`
