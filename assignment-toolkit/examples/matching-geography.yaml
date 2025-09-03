@@ -1,0 +1,109 @@
+metadata:
+  id: "match-001-countries"
+  version: "1.2.0"
+  created: 2024-01-01T00:00:00Z
+  modified: 2024-01-15T00:00:00Z
+  author: "Geography Teacher"
+  email: "teacher@school.edu"
+  license: "CC-BY-SA-4.0"
+  language: "en"
+  description: "Matching exercise for countries and their capitals"
+  tags: ["geography", "matching", "countries", "capitals"]
+  source_hash: "x1y2z3a4b5c6"
+
+assignment:
+  title: "Countries and Capitals Matching"
+  description: "Match each country with its correct capital city"
+  type: "matching"
+  category: "Geography"
+  difficulty: "intermediate"
+  points: 10
+  time_limit: 300  # 5 minutes
+  auto_grade: true
+  show_feedback: true
+  shuffle_questions: true
+  allow_review: true
+  published: true
+  quarter: "Q2"
+  
+  # Instructions for students
+  instructions: "Drag each country from the left column to match it with its capital city on the right. You have 5 minutes to complete this exercise."
+  criteria: "Each correct match is worth 1 point. Partial credit will be given."
+  
+  # Tracking settings
+  track_attempts: true
+  track_confidence: true
+  track_time_spent: true
+  
+  # Educational metadata
+  learning_objectives:
+    - "Associate countries with their capital cities"
+    - "Demonstrate knowledge of European geography"
+    - "Practice pattern recognition skills"
+  prerequisites: ["basic-world-geography"]
+  recommended_courses: ["european-studies", "world-geography-advanced"]
+  tags: ["geography", "europe", "capitals", "matching"]
+  
+  # Matching pairs
+  questions:
+    leftItems:
+      - "France"
+      - "Germany"
+      - "Spain"
+      - "Italy"
+      - "United Kingdom"
+      - "Netherlands"
+      - "Sweden"
+      - "Poland"
+    rightItems:
+      - "Paris"
+      - "Berlin"
+      - "Madrid"
+      - "Rome"
+      - "London"
+      - "Amsterdam"
+      - "Stockholm"
+      - "Warsaw"
+
+resources:
+  - id: "europe-map"
+    title: "Map of Europe"
+    description: "Political map of Europe showing countries and capitals"
+    type: "image"
+    local_path: "./resources/europe-political-map.png"
+    file_size: 1536000
+    mime_type: "image/png"
+    tags: ["europe", "reference", "map"]
+    order: 1
+    is_public: true
+    
+  - id: "country-facts"
+    title: "European Country Facts"
+    description: "Additional information about European countries"
+    type: "pdf"
+    local_path: "./resources/europe-facts.pdf"
+    file_size: 512000
+    mime_type: "application/pdf"
+    tags: ["facts", "reference", "europe"]
+    order: 2
+    is_public: true
+
+dependencies:
+  subjects: ["geography", "european-studies"]
+  prerequisites: ["basic-world-geography"]
+  recommended_courses: ["european-studies", "world-geography-advanced"]
+  required_resources: ["europe-map"]
+  software_requirements:
+    - name: "Modern Web Browser"
+      version: "Latest"
+      description: "Required for drag-and-drop functionality"
+      required: true
+
+validation:
+  is_valid: true
+  validated_at: 2024-01-15T00:00:00Z
+  validator_version: "1.0.0"
+  errors: []
+  warnings:
+    - "Consider adding more detailed feedback for incorrect matches"
+  score: 88

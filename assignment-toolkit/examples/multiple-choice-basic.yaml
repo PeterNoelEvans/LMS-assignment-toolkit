@@ -1,0 +1,76 @@
+metadata:
+  id: "mc-001-capitals"
+  version: "1.0.0"
+  created: 2024-01-01T00:00:00Z
+  modified: 2024-01-01T00:00:00Z
+  author: "Geography Teacher"
+  email: "teacher@school.edu"
+  license: "CC-BY-SA-4.0"
+  language: "en"
+  description: "Basic multiple choice quiz about world capitals"
+  tags: ["geography", "capitals", "beginner"]
+  source_hash: "a1b2c3d4e5f6"
+
+assignment:
+  title: "World Capitals Quiz"
+  description: "Test your knowledge of world capital cities"
+  type: "multiple-choice"
+  category: "Geography"
+  difficulty: "beginner"
+  points: 5
+  auto_grade: true
+  show_feedback: true
+  shuffle_questions: false
+  allow_review: true
+  published: true
+  quarter: "Q1"
+  
+  # Tracking settings
+  track_attempts: true
+  track_confidence: true
+  track_time_spent: true
+  
+  # Educational metadata
+  learning_objectives:
+    - "Identify capital cities of major countries"
+    - "Demonstrate knowledge of world geography"
+  prerequisites: []
+  recommended_courses: ["world-geography-101"]
+  tags: ["geography", "capitals", "world-knowledge"]
+  
+  # Multiple choice question
+  questions:
+    question: "What is the capital of France?"
+    options:
+      - "London"
+      - "Paris"
+      - "Berlin"
+      - "Madrid"
+    correctAnswer: "Paris"
+    explanation: "Paris is the capital and largest city of France, located in the north-central part of the country."
+
+resources:
+  - id: "world-map-resource"
+    title: "World Political Map"
+    description: "Reference map showing countries and their capitals"
+    type: "image"
+    local_path: "./resources/world-map.png"
+    file_size: 2048000
+    mime_type: "image/png"
+    tags: ["reference", "map"]
+    order: 1
+    is_public: true
+
+dependencies:
+  subjects: ["geography"]
+  prerequisites: []
+  recommended_courses: ["world-geography-101"]
+  required_resources: []
+
+validation:
+  is_valid: true
+  validated_at: 2024-01-01T00:00:00Z
+  validator_version: "1.0.0"
+  errors: []
+  warnings: []
+  score: 95
